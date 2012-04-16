@@ -23,6 +23,7 @@
 		34A36D75146A0F0000B70F7B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A36D6F146A0F0000B70F7B /* Icon-Small@2x.png */; };
 		34A36D76146A0F0000B70F7B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A36D70146A0F0000B70F7B /* Icon.png */; };
 		34A36D77146A0F0000B70F7B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A36D71146A0F0000B70F7B /* Icon@2x.png */; };
+		34B0F9B2153C6E100092E9FA /* mobilitate_fundo_transparente.png in Resources */ = {isa = PBXBuildFile; fileRef = 34B0F9B1153C6E100092E9FA /* mobilitate_fundo_transparente.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		34A36D6F146A0F0000B70F7B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		34A36D70146A0F0000B70F7B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		34A36D71146A0F0000B70F7B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		34B0F9B1153C6E100092E9FA /* mobilitate_fundo_transparente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobilitate_fundo_transparente.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		34A36D6B146A0E3400B70F7B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				34B0F9B1153C6E100092E9FA /* mobilitate_fundo_transparente.png */,
 				34A36D6C146A0F0000B70F7B /* Icon-72.png */,
 				34A36D6D146A0F0000B70F7B /* Icon-Small-50.png */,
 				34A36D6E146A0F0000B70F7B /* Icon-Small.png */,
@@ -199,6 +202,7 @@
 				34A36D75146A0F0000B70F7B /* Icon-Small@2x.png in Resources */,
 				34A36D76146A0F0000B70F7B /* Icon.png in Resources */,
 				34A36D77146A0F0000B70F7B /* Icon@2x.png in Resources */,
+				34B0F9B2153C6E100092E9FA /* mobilitate_fundo_transparente.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,8 +291,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Regra de 3/Regra de 3-Prefix.pch";
 				INFOPLIST_FILE = "Regra de 3/Regra de 3-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -299,8 +304,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Regra de 3/Regra de 3-Prefix.pch";
 				INFOPLIST_FILE = "Regra de 3/Regra de 3-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
